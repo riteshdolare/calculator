@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #E0CCBE;
+    
+}
+
+.container{
+    background-color: #3C3633;
+    padding: 3em;
+    border-radius:1em ;
+}
+
+.input-field{
+    padding: 6px;
+    border-radius: 7px;
+    border: none;
+}
+
+#ope{
+    border-radius:20%;
+    padding: 5px;
+    font-size: 1em;
+    font-weight: 700;
+}
+
+.btn{
+    padding: 5px;
+    border-radius: 5px;
+    background-color:#EEEDEB;
+    cursor: pointer;
+}
